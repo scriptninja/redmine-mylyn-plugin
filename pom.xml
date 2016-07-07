@@ -219,6 +219,19 @@
 				<platform-version>[4.5,4.6)</platform-version>
 			</properties>
 		</profile>
+		<profile>
+			<id>platform-neon</id>
+			<activation>
+				<property>
+					<name>platform-version-name</name>
+					<value>neon</value>
+				</property>
+			</activation>
+			<properties>
+				<eclipse-site>http://download.eclipse.org/releases/neon</eclipse-site>
+				<platform-version>[4.6,4.7)</platform-version>
+			</properties>
+		</profile>
 	</profiles>
 
 </project>
