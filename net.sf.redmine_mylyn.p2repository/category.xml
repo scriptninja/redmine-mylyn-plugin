@@ -6,5 +6,8 @@
    <feature url="features/net.sf.redmine_mylyn.feature_0.4.1.qualifier.jar" id="net.sf.redmine_mylyn.feature" version="0.4.1.qualifier">
       <category name="mylyn_integration"/>
    </feature>
+   <bundle id="org.json" version="1.0.0.v201011060100">
+      <category name="mylyn_integration"/>
+   </bundle>
    <category-def name="mylyn_integration" label="Mylyn Integration"/>
 </site>
