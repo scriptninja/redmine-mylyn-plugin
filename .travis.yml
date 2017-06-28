@@ -1,11 +1,10 @@
 language: java
 jdk:
-  - oraclejdk7
   - oraclejdk8
 
 before_script:
 
-script: mvn clean verify
+script: mvn clean verify package
 deploy:
   provider: pages
   skip_cleanup: true
