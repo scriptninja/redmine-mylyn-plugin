@@ -1,7 +1,14 @@
 language: java
 jdk:
   - oraclejdk7
+  - oraclejdk8
 
 before_script:
 
 script: mvn clean verify
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
