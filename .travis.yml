@@ -4,7 +4,7 @@ jdk:
 
 before_script:
 
-script: mvn clean verify package
+script: mvn clean compile package
 deploy:
   provider: pages
   skip_cleanup: true
