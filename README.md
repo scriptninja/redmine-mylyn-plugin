@@ -4,11 +4,10 @@ Description
 
 All original code come from http://sourceforge.net/projects/redmin-mylyncon/
 
-Aim of this fork is to provide git mirror of above repository as well as place for my own work.
-Pull requests will be warm welcomed and served with cold beer ;).
+Please note that this fork is effectively abandoned. I forked from pahjbo solely to see whether I could get travis-ci to build this so I could install with his fix for displaying issue IDs in Neon+. The way I got there is kind of a mess.
 
 Build status on Travis CI:
-[![Build Status](https://travis-ci.org/ljader/redmine-mylyn-plugin.svg)](https://travis-ci.org/ljader/redmine-mylyn-plugin)
+[![Build Status](https://travis-ci.org/scriptninja/redmine-mylyn-plugin.svg)](https://travis-ci.org/scriptninja/redmine-mylyn-plugin)
 
 Redmine-Mylyn integration
 -------------------------
@@ -44,16 +43,10 @@ Connector Installation
 Plugin Installation
 -------------------------
 
-1.  Download latest release from GitHub releases:
-[ZIP with built plugin as P2 repo](https://github.com/ljader/redmine-mylyn-plugin/releases/latest)
+1.  Install from update site:
+[P2 Update Site](https://scriptninja.github.io/redmine-mylyn-plugin/net.sf.redmine_mylyn.p2repository/target/repository/)
 
-2.  Install it into Eclipse using instructions from [http://stackoverflow.com/a/16074606/498096](http://stackoverflow.com/a/16074606/498096) section "(1) auto install" - in summary:
-
-		Eclipse Menu -> Help -> Install New Software -> Add -> Archive
-
-		and then choose downloaded .zip file
-
-3. Add Task Repository of type Redmine and provide redmine Url with Login and Password
+2. Add Task Repository of type Redmine and provide redmine Url with Login and Password
 
 Development
 -------------------------
