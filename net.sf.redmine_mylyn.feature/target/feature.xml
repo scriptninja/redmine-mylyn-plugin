@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.sf.redmine_mylyn.feature"
+      label="%Feature-Name"
+      version="0.4.1.201707031422"
+      provider-name="%Feature-Vendor"
+      plugin="net.sf.redmine_mylyn">
+
+   <description url="http://www.example.com/description">
+      %description
+   </description>
+
+   <copyright url="epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://opensource.ljader.pl/update-site/redmine-mylyn-plugin/nightly/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.mylyn.commons.net" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.mylyn.tasks.core" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.mylyn.commons.core" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.mylyn.tasks.ui" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.mylyn.commons.ui" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.forms" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.editors" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi.services" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text"/>
+      
+      <import plugin="net.sf.redmine_mylyn.common" version="0.4.0" match="greaterOrEqual"/>
+      <import plugin="net.sf.redmine_mylyn.api" version="0.4.0" match="greaterOrEqual"/>
+      <import plugin="net.sf.redmine_mylyn.core" version="0.4.0" match="greaterOrEqual"/>
+
+      <import plugin="ch.qos.logback.classic" version="0.9.19" match="greaterOrEqual"/>
+      <import plugin="ch.qos.logback.core" version="0.9.19" match="greaterOrEqual"/>
+      <import plugin="org.aspectj.runtime" version="1.6.0" match="greaterOrEqual"/>
+      <import plugin="org.json" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.slf4j.api" version="1.5.11" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="net.sf.redmine_mylyn.api"
+         download-size="127"
+         install-size="234"
+         version="0.4.1.201707031422"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.redmine_mylyn.core"
+         download-size="90"
+         install-size="219"
+         version="0.4.1.201707031422"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.redmine_mylyn.ui"
+         download-size="152"
+         install-size="320"
+         version="0.4.1.201707031422"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.redmine_mylyn.common"
+         download-size="9"
+         install-size="11"
+         version="0.4.1.201707031422"
+         unpack="false"/>
+
+    <plugin
+         id="org.aspectj.runtime"
+         download-size="135"
+         install-size="251"
+         version="1.8.10.201703272045"
+         unpack="false"/>
+
+    <plugin
+         id="org.json"
+         download-size="56"
+         install-size="104"
+         version="1.0.0.v201011060100"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.redmine_mylyn"
+         download-size="2"
+         install-size="1"
+         version="0.4.1.201707031422"
+         unpack="false"/>
+
+</feature>

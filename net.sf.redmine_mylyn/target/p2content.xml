@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='net.sf.redmine_mylyn' version='0.4.1.201707031422'>
+    <update id='net.sf.redmine_mylyn' range='[0.0.0,0.4.1.201707031422)' severity='0'/>
+    <properties size='8'>
+      <property name='df_LT.Bundle-Name' value='Redmine-Mylyn-Connector'/>
+      <property name='df_LT.Bundle-Vendor' value='Sven Krzyzak'/>
+      <property name='org.eclipse.equinox.p2.name' value='%Bundle-Name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%Bundle-Vendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='net.sf.redmine_mylyn'/>
+      <property name='maven-artifactId' value='net.sf.redmine_mylyn'/>
+      <property name='maven-version' value='0.4.1-SNAPSHOT'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='net.sf.redmine_mylyn' version='0.4.1.201707031422'/>
+      <provided namespace='osgi.bundle' name='net.sf.redmine_mylyn' version='0.4.1.201707031422'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='net.sf.redmine_mylyn' version='0.4.1.201707031422'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: net.sf.redmine_mylyn;singleton:=true&#xA;Bundle-Version: 0.4.1.201707031422&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

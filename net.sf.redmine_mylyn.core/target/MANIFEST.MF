@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: net.sf.redmine_mylyn.core;singleton:=true
+Export-Package: net.sf.redmine_mylyn.core,net.sf.redmine_mylyn.core.cl
+ ient,net.sf.redmine_mylyn.internal.core;x-friends:="net.sf.redmine_my
+ lyn.core-test"
+Bundle-Name: %Bundle-Name
+Bundle-Version: 0.4.1.201707031422
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",org.ec
+ lipse.mylyn.commons.core;bundle-version="3.5.0",org.eclipse.mylyn.com
+ mons.net;bundle-version="3.5.0",org.eclipse.mylyn.tasks.core;bundle-v
+ ersion="3.5.0",net.sf.redmine_mylyn.common;bundle-version="0.4.0",net
+ .sf.redmine_mylyn.api;bundle-version="0.4.0",org.aspectj.runtime;bund
+ le-version="1.6.0"
+Bundle-ManifestVersion: 2
+Bundle-Activator: net.sf.redmine_mylyn.core.RedmineCorePlugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+

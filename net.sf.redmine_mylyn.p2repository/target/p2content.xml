@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='201707031422.mylyn_integration' version='1.0.0.2771cJcxnh9-A9M7M9CKECA3'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Mylyn Integration'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201707031422.mylyn_integration' version='1.0.0.2771cJcxnh9-A9M7M9CKECA3'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.json' range='[1.0.0.v201011060100,1.0.0.v201011060100]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='net.sf.redmine_mylyn.feature.feature.group' range='[0.4.1.201707031422,0.4.1.201707031422]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>

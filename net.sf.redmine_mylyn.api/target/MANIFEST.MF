@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: net.sf.redmine_mylyn.api;singleton:=true
+Export-Package: net.sf.redmine_mylyn.api;x-internal:=true,net.sf.redmi
+ ne_mylyn.api.client,net.sf.redmine_mylyn.api.exception,net.sf.redmine
+ _mylyn.api.model;uses:="net.sf.redmine_mylyn.api.model.container",net
+ .sf.redmine_mylyn.api.model.container,net.sf.redmine_mylyn.api.query,
+ net.sf.redmine_mylyn.internal.api.client;x-friends:="net.sf.redmine_m
+ ylyn.api-test",net.sf.redmine_mylyn.internal.api.parser;x-friends:="n
+ et.sf.redmine_mylyn.api-test",net.sf.redmine_mylyn.internal.api.parse
+ r.adapter.type;x-friends:="net.sf.redmine_mylyn.api-test"
+Bundle-Name: %Bundle-Name
+Bundle-Version: 0.4.1.201707031422
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",org.ec
+ lipse.mylyn.commons.net;bundle-version="3.5.0",net.sf.redmine_mylyn.c
+ ommon;bundle-version="0.4.0",org.json;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: net.sf.redmine_mylyn.api.RedmineApiPlugin
+Bundle-Vendor: %Bundle-Vendor
+

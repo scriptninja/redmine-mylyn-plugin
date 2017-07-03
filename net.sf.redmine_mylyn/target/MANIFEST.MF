@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: net.sf.redmine_mylyn;singleton:=true
+Bundle-Name: %Bundle-Name
+Bundle-Version: 0.4.1.201707031422
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: %Bundle-Vendor
+
